@@ -94,7 +94,7 @@ call :SelectNodeVersion
 
 pushd src\web
 echo 2. Install npm packages
-IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
+IF EXIST "package.json" (
   call :ExecuteCmd !NPM_CMD! install --production
   IF !ERRORLEVEL! NEQ 0 goto error
 )
