@@ -98,7 +98,6 @@ IF EXIST "package.json" (
   call :ExecuteCmd !NPM_CMD! install --production
   IF !ERRORLEVEL! NEQ 0 goto error
 )
-popd
 
 echo "Execute Gulp"
 IF EXIST "Gulpfile.js" (
