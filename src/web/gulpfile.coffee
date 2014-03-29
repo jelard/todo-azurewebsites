@@ -5,7 +5,6 @@ bower = require 'gulp-bower'
 clean = require 'gulp-clean'
 coffee = require 'gulp-coffee'
 concat = require 'gulp-concat'
-
 cssmin = require 'gulp-minify-css'
 html2js = require 'gulp-ng-html2js'
 htmlmin = require 'gulp-htmlmin'
