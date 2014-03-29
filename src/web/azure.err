@@ -1,0 +1,10 @@
+Sat Mar 29 2014 12:11:57 GMT-0400 (Eastern Daylight Time):
+{ [Error: No account information found. Please import credentials using "azure account import <file>".]
+  stack: [Getter/Setter],
+  __frame: undefined,
+  rawStack: [Getter] }
+Error: No account information found. Please import credentials using "azure account import <file>".
+    at Object.readFromFile (C:\Users\jmacalino\AppData\Roaming\npm\node_modules\azure-cli\lib\util\keyFiles.js:33:11)
+    at AccountClient.__.extend.importPublishSettings (C:\Users\jmacalino\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\core\subscriptionclient.js:229:34)
+    at __2 (C:\Users\jmacalino\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\account._js:89:28)
+
